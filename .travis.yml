@@ -9,3 +9,4 @@ services:
 
 script:
   - sh buildsite.sh
+  - SOMEPATH=$BUILDPATH
