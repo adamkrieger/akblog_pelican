@@ -8,5 +8,5 @@ services:
   - docker
 
 script:
-  - sh buildsite.sh
-  - SOMEPATH=$BUILDPATH
+  - . ./buildsite.sh
+  - . ./deploysite.sh
