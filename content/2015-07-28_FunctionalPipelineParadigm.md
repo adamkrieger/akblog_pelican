@@ -1,4 +1,3 @@
-Date: 2015-07-28 20:54:53-05:00
 Title: The Functional Pipeline Paradigm
 Category: Functional Programming
 Tags: fsharp, functional, syntax

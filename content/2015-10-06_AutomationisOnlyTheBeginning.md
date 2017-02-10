@@ -1,4 +1,3 @@
-Date: 2015-10-06 20:54:53-05:00
 Title: Automation is Only The Beginning
 Category: DevOps
 Tags: automation, devops

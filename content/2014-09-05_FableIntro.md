@@ -1,4 +1,3 @@
-Date: 2014-09-05 20:54:53-05:00
 Title: Fable - The F# Static Site Generator
 Category: Projects
 Tags: fsharp, blogging

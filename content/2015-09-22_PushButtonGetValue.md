@@ -1,4 +1,3 @@
-Date: 2015-09-22 20:54:53-05:00
 Title: Push Button, Get Value
 Category: DevOps
 Tags: delivery, devops

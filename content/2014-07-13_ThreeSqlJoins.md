@@ -1,4 +1,3 @@
-Date: 2014-07-13 18:54:53-05:00
 Title: What are the Three SQL Join Syntaxes?
 Category: Databases
 Tags: syntax, sql

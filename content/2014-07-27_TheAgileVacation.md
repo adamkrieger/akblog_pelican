@@ -1,4 +1,3 @@
-Date: 2014-07-27 20:54:53-05:00
 Title: The Agile Vacation
 Category: Reflections
 Tags: agile

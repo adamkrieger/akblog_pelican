@@ -1,4 +1,3 @@
-Date: 2015-11-10 20:54:53-05:00
 Title: Long Time Thinker, First Time Speaker
 Category: Speaking
 Tags: sdec, conferences, leadership

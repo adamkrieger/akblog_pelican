@@ -1,4 +1,3 @@
-Date: 2014-09-15 20:54:53-05:00
 Title: Don't be a Toaster
 Category: Software Design
 Tags: patterns

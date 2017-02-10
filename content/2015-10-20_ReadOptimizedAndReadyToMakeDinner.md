@@ -1,4 +1,3 @@
-Date: 2015-10-20 20:54:53-05:00
 Title: Read-Optimized and Ready to Make Dinner
 Category: Reflections
 Tags: organization

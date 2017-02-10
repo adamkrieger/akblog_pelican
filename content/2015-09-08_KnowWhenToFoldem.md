@@ -1,4 +1,3 @@
-Date: 2015-09-08 20:54:53-05:00
 Title: Know When to Fold'em
 Category: Functional Programming
 Tags: fsharp, functional

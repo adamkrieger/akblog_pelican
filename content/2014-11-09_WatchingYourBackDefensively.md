@@ -1,4 +1,3 @@
-Date: 2014-11-09 20:54:53-05:00
 Title: Watching Your Back with Defensive Programming
 Category: Programming Practice
 Tags: safe code

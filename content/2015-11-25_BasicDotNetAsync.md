@@ -1,4 +1,3 @@
-Date: 2015-11-25 20:54:53-05:00
 Title: Basic .Net Async for Performance Optimization
 Category: Framework Deep Dive
 Tags: csharp, asynchronous

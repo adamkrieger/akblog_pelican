@@ -39,3 +39,4 @@ DEFAULT_PAGINATION = 10
 #AK
 DELETE_OUTPUT_DIRECTORY = False
 THEME = "./themes/pelican-clean-blog"
+FILENAME_METADATA = r"(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)"

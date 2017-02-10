@@ -1,4 +1,3 @@
-Date: 2015-01-30 20:54:53-05:00
 Title: btn Factory
 Category: Leadership
 Tags: management, leadership

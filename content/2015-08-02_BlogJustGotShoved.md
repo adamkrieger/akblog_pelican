@@ -1,4 +1,3 @@
-Date: 2015-08-02 20:54:53-05:00
 Title: This Blog Just Got Shoved (Shove v0.1.0)
 Category: Projects
 Tags: golang, aws, blogging

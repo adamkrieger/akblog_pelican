@@ -1,4 +1,3 @@
-Date: 2015-08-25 20:54:53-05:00
 Title: Pick a Variable, Any Variable
 Category: Programming Practice
 Tags: referential transparency, clarity
