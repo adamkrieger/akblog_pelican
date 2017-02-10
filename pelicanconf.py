@@ -28,8 +28,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/adamkrieger'),
+          ('github', 'https://github.com/adamkrieger'))
 
 DEFAULT_PAGINATION = 10
 
@@ -40,3 +40,4 @@ DEFAULT_PAGINATION = 10
 DELETE_OUTPUT_DIRECTORY = False
 THEME = "./themes/pelican-clean-blog"
 FILENAME_METADATA = r"(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)"
+SHOW_SOCIAL_ON_INDEX_PAGE_HEADER = True
