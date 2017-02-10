@@ -9,5 +9,4 @@ services:
 
 script:
   - . ./buildsite.sh
-  - ls
   - . ./deploysite.sh

@@ -1,8 +1,10 @@
 Date: 2014-07-13 18:54:53-05:00
-Title: What are the Three SQL Join Syntaxes
+Title: What are the Three SQL Join Syntaxes?
 Category: Databases
+Tags: syntax, sql
+Summary: That time I was asked in an interview about SQL syntax, and wasn't old enough to know the answer.
 
-This is a pretty common interview question. Actually, I was asked it once, so you're welcome. :) When referring to ‘join syntaxes’, I do not mean the type of join (INNER, OUTER, LEFT, CROSS, SELF), but the arrangement of syntax itself. <a href="http://www.mcpressonline.com/programming/sql/practical-sql-three-ways-to-join.html">This post</a> by Joe Pluta is pretty complete, but I’ll attempt to add value above and beyond it. This post assumes you’ve read Joe’s post, but I’ll quickly recap the syntaxes. <!--more-->
+This may or may not be a common interview question, but I was asked it once, so you're welcome. :) When referring to ‘join syntaxes’, I do not mean the type of join (INNER, OUTER, LEFT, CROSS, SELF), but the arrangement of syntax itself. <a href="http://www.mcpressonline.com/programming/sql/practical-sql-three-ways-to-join.html">This post</a> by Joe Pluta is pretty complete, but I’ll attempt to add value above and beyond it. This post assumes you’ve read Joe’s post, but I’ll quickly recap the syntaxes. <!--more-->
 
 ### What are they?
 
