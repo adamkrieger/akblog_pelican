@@ -38,6 +38,13 @@ DEFAULT_PAGINATION = 10
 
 #AK
 DELETE_OUTPUT_DIRECTORY = False
-THEME = "./themes/pelican-clean-blog"
+THEME = "./themes/nest"
 FILENAME_METADATA = r"(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)"
 SHOW_SOCIAL_ON_INDEX_PAGE_HEADER = True
+
+#NEST
+NEST_INDEX_HEAD_TITLE = u'Adam Krieger'
+NEST_INDEX_HEADER_TITLE = u'Adam Krieger'
+NEST_INDEX_HEADER_SUBTITLE = u'Notes on Delivering Software'
+NEST_HEADER_LOGO = "/images/aklogo_relief.png"
+NEST_HEADER_IMAGES = 'countertop.jpg'

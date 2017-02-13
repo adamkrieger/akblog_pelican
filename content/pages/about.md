@@ -1,15 +1,17 @@
 Title: About
 
-Welcome to my personal blog. You'll find discussions and examples of functional and concurrent programming, and opinions about how software gets built.
+My name is Adam Krieger.
 
-Here are some of the more specific topics I'm currently diving into:
+I've been in the IT industry since 2007, and in that time I've been through Technical Support, Software Development, Operations, and Team Leadership, roles. I've worked with Startups and Enterprises, and a variety of company sizes in between. I stay current by reading, writing, speaking, and experimenting. I care about my work, the people using it, and the people that work with me, and that's why I have this blog. This is an outlet for ideas and experiences which I hope will be valuable to the reader.
 
-* Elixir
-* Erlang
-* Choice Architecture
-* Continuous Delivery
-* Functional Programming
+I'm also interested in Economics, Music, Math, Science, Product Design, and Architecture. Here's a short list of the topics I'm currently investigating.
 
-I've been professionally developing software since 2007, and I believe it's my responsibility to share what I've learned with the community. I also have a responsibility to accept new ideas freely and continuously improve my skills. There are too many frameworks, too many languages, and too many paradigms for one person to achieve proficiency in. We will only succeed through targeted improvement and generous teamwork.
+* DevOps
+* Python
+* Slack Integration
+* Distributed Design
+* Powerlifting
+* Nutrition
+* Modular Synthesizers
 
 Thanks for reading.
