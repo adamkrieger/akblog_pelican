@@ -6,7 +6,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Adam Krieger'
 SITENAME = u'adamkrieger.ca'
-SITEURL = ''
+SITEURL = 'http://www.adamkrieger.ca'
+DISQUS_SITEURL = "http://www.adamkrieger.ca"
 
 PATH = 'content'
 
@@ -49,6 +50,8 @@ THEME = "./themes/nest"
 FILENAME_METADATA = r"(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)"
 SHOW_SOCIAL_ON_INDEX_PAGE_HEADER = True
 GOOGLE_ANALYTICS = 'UA-66645426-1'
+TWITTER_HANDLE = 'AdamKrieger'
+DISQUS_SITENAME = 'adamkrieger'
 
 #NEST
 NEST_INDEX_HEAD_TITLE = u'Adam Krieger'

@@ -24,6 +24,9 @@
                       <p class="header-date">{{ NEST_ARTICLE_HEADER_BY }} {% for author in article.authors %}<a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>{% if not loop.last %}, {% endif %}{% endfor %}, {{ article.locale_date }}{% if article.modified %}, {{ NEST_ARTICLE_HEADER_MODIFIED }} {{ article.locale_modified }}{% endif %}, {{ NEST_ARTICLE_HEADER_IN }} <a href="{{ SITEURL }}/{{ category.url }}">{{ article.category|capitalize }}</a></p>
                       <div class="header-underline"></div>
                       <div class="clearfix"></div>
+                      <p class="pull-left">
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="{{ TWITTER_HANDLE }}" data-related="{{ TWITTER_HANDLE }}" data-count="none">Tweet</a>
+                      </p>
                       <p class="pull-right header-tags">
                           <span class="glyphicon glyphicon-tags mr5" aria-hidden="true"></span>
                           {% for tag in article.tags|sort %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}
@@ -37,6 +40,7 @@
 
 {% block content %}
     <div class="container content">
+
         {{ article.content }}
 
         {% if article.related_posts %}
@@ -52,4 +56,7 @@
         {% include "disqus_script.html" %}
         
     </div>
+
+    <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
 {% endblock %}
