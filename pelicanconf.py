@@ -29,13 +29,13 @@ LINKS = ()
 # Social widget
 SOCIAL = (
     (
-        '<i class="fa fa-2 fa-twitter-square" aria-hidden="true"></i> @adamkrieger',
+        '<i class="fa fa-twitter-square icon-social" aria-hidden="true"></i> @adamkrieger',
         'https://twitter.com/adamkrieger'),
     (
-        '<i class="fa fa-2 fa-github-square" aria-hidden="true"></i> /AdamKrieger',
+        '<i class="fa fa-github-square icon-social" aria-hidden="true"></i> /AdamKrieger',
         'https://github.com/adamkrieger'),
     (
-        '<i class="fa fa-2 fa-linkedin-square" aria-hidden="true"></i> Adam Krieger',
+        '<i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i> Adam Krieger',
         'https://www.linkedin.com/in/adam-krieger-7a087048/')
     )
 
