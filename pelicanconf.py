@@ -22,14 +22,21 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = ()
+#('Pelican', 'http://getpelican.com/')
 
 # Social widget
-SOCIAL = (('twitter', 'https://twitter.com/adamkrieger'),
-          ('github', 'https://github.com/adamkrieger'))
+SOCIAL = (
+    (
+        '<i class="fa fa-2 fa-twitter-square" aria-hidden="true"></i> @adamkrieger',
+        'https://twitter.com/adamkrieger'),
+    (
+        '<i class="fa fa-2 fa-github-square" aria-hidden="true"></i> /AdamKrieger',
+        'https://github.com/adamkrieger'),
+    (
+        '<i class="fa fa-2 fa-linkedin-square" aria-hidden="true"></i> Adam Krieger',
+        'https://www.linkedin.com/in/adam-krieger-7a087048/')
+    )
 
 DEFAULT_PAGINATION = 10
 
@@ -48,3 +55,25 @@ NEST_INDEX_HEADER_TITLE = u'Adam Krieger'
 NEST_INDEX_HEADER_SUBTITLE = u'Notes on Delivering Software'
 NEST_HEADER_LOGO = "/images/aklogo_relief.png"
 NEST_HEADER_IMAGES = 'countertop.jpg'
+
+NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
+NEST_SITEMAP_MENU = [('Archives', '/archives.html'), ('Tags', '/tags.html')]
+NEST_INDEX_CONTENT_TITLE = u'Posts'
+NEST_COPYRIGHT = u'&copy; adamkrieger.ca 2015'
+
+# pagination.html
+NEST_PAGINATION_PREVIOUS = u'Previous'
+NEST_PAGINATION_NEXT = u'Next'
+# archives.html
+NEST_ARCHIVES_HEAD_TITLE = u'Archives'
+NEST_ARCHIVES_HEAD_DESCRIPTION = u'Post Archives'
+NEST_ARCHIVES_HEADER_TITLE = u'Archives'
+NEST_ARCHIVES_HEADER_SUBTITLE = u'History of Opinion'
+NEST_ARCHIVES_CONTENT_TITLE = u'Archives'
+# tags.html
+NEST_TAGS_HEAD_TITLE = u'Tags'
+NEST_TAGS_HEAD_DESCRIPTION = u'Tag List'
+NEST_TAGS_HEADER_TITLE = u'Tags'
+NEST_TAGS_HEADER_SUBTITLE = u'#Hashtag'
+NEST_TAGS_CONTENT_TITLE = u'Tags'
+NEST_TAGS_CONTENT_LIST = u'tagged'
