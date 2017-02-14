@@ -48,6 +48,7 @@ DELETE_OUTPUT_DIRECTORY = False
 THEME = "./themes/nest"
 FILENAME_METADATA = r"(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)"
 SHOW_SOCIAL_ON_INDEX_PAGE_HEADER = True
+GOOGLE_ANALYTICS = 'UA-66645426-1'
 
 #NEST
 NEST_INDEX_HEAD_TITLE = u'Adam Krieger'
@@ -59,7 +60,7 @@ NEST_HEADER_IMAGES = 'countertop.jpg'
 NEST_SITEMAP_COLUMN_TITLE = u'Sitemap'
 NEST_SITEMAP_MENU = [('Archives', '/archives.html'), ('Tags', '/tags.html')]
 NEST_INDEX_CONTENT_TITLE = u'Posts'
-NEST_COPYRIGHT = u'&copy; adamkrieger.ca 2015'
+NEST_COPYRIGHT = u'&copy; adamkrieger.ca 2017'
 
 # pagination.html
 NEST_PAGINATION_PREVIOUS = u'Previous'

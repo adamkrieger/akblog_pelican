@@ -97,7 +97,7 @@ So that's a mouthful. We're doing two things concurrently, just two, and both of
 |  100000000 | 0.3150481 | 0.1715336 | 183.6655326  |
 | 1000000000 | 3.2191459 | 1.6207255 | 198.6237583  |
 
-![4 Processor Shared Web App Performance Line Graph](../../img/2015-11-25_4Proc.PNG)
+![4 Processor Shared Web App Performance Line Graph](/images/2015-11-25_4Proc.PNG)
 
 Importantly, the Azure shared Web App instance had 4 processors. While theoretically sharing this VM with many other Apps, this App now has access to more cores than if we'd put it on a single-core paid instance. But more on that later.
 
@@ -120,7 +120,7 @@ To take a look at Hypothesis 3, all I had to do was hit the 'Scale' tab on the A
 |  100000000 | 0.3238972 | 0.3128307 | 103.5375364  |
 | 1000000000 | 3.2103357 | 3.2574695 |  98.5530548  |
 
-![1 Processor Basic Instance Performance Line Graph](../../img/2015-11-25_1Proc.PNG)
+![1 Processor Basic Instance Performance Line Graph](/images/2015-11-25_1Proc.PNG)
 
 The same curve we saw in the 4 Processor test is present here: from 1 to 100000, the work required starts to outweigh the ThreadPool overhead. After that, we can see how **additional cores are valuable**, and how **concurrent programming is valuable**, too. The ThreadPool can't do the same magic when it's physically impossible to execute instructions simultaneously.
 
@@ -143,7 +143,7 @@ The 'Clock Tick Rate' determines how much time a thread gets to execute on the p
 |          100 | 0.2160496 | 0.1049520 | 205.8556292  |
 |         1000 | 2.0150131 | 1.0013177 | 201.2361411  |
 
-![4 Processor Shared Web App Thread Sleep Graph](../../img/2015-11-25_4ProcSleep.PNG)
+![4 Processor Shared Web App Thread Sleep Graph](/images/2015-11-25_4ProcSleep.PNG)
 
 If we went by this example, it would look like anything that took 10ms or longer would see astounding performance boosts by using ```async/await```. Reality carries a lot more nuance. Thanks for reading!
 
