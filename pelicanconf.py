@@ -46,7 +46,7 @@ DEFAULT_PAGINATION = 10
 
 #AK
 DELETE_OUTPUT_DIRECTORY = False
-THEME = "./themes/nest.ak"
+THEME = "./themes/nest"
 FILENAME_METADATA = r"(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)"
 SHOW_SOCIAL_ON_INDEX_PAGE_HEADER = True
 GOOGLE_ANALYTICS = 'UA-66645426-1'
