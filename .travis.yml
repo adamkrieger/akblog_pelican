@@ -9,4 +9,5 @@ services:
 
 script:
   - . ./buildsite.sh
-  - . ./deploysite.sh
+  - ls themes/nest/
+#  - . ./deploysite.sh
