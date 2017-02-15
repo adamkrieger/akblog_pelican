@@ -1,0 +1,3 @@
+[submodule "themes/nest"]
+	path = themes/nest
+	url = https://github.com/adamkrieger/nest.git
