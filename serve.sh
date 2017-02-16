@@ -1,4 +1,4 @@
 #!/bin/bash
-SERVEPATH=$1
-echo $SERVEPATH
-(cd $SERVEPATH && python -m SimpleHTTPServer 8000)
+DIR=`pwd`/output
+
+docker run --name akblog_instance -v $DIR:/usr/share/nginx/html:ro -p 8000:80 -d nginx
