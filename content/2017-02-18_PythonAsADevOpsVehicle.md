@@ -1,7 +1,7 @@
 Title: Python as a DevOps Vehicle
 Category: DevOps
 Tags: devops, python
-Summary: That time I justify the use of Python as goto DevOps glue.
+Summary: That time I justified the use of Python as goto DevOps glue.
 Illustration: trunk_board.jpg
 
 The answer is Python. The question is:
