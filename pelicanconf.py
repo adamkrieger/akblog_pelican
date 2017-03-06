@@ -66,6 +66,8 @@ NEST_SITEMAP_MENU = [('Archives', '/archives.html'), ('Tags', '/tags.html')]
 NEST_INDEX_CONTENT_TITLE = u'Posts'
 NEST_COPYRIGHT = u'&copy; adamkrieger.ca 2017'
 
+NEST_FAVICON_PNG = True
+
 # pagination.html
 NEST_PAGINATION_PREVIOUS = u'Previous'
 NEST_PAGINATION_NEXT = u'Next'
