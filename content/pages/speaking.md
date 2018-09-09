@@ -2,13 +2,21 @@ Title: Speaking
 
 ## Upcoming
 
-*Stay tuned for news about my next speaking engagement.*
+### The Freedom of IaC with Ansible and Cloudformation
+
+* To be presented at **Prairie Dev Con: Deliver 2018**
+* **October 29-30, 2018, Winnipeg, Manitoba**
 
 ## Past
 
+### Slack Integrations: From Concept to Deployment
+
+* Presented at **Prairie Dev Con (PrDC 2017)**
+* **June 6-7, 2017, Winnipeg, Manitoba**
+
 ### Agility in Containers: How Workflows Evolve with Docker
 
-* Presented at **Prairie Dev Con: Deliver (PrDC) 2016**
+* Presented at **Prairie Dev Con: Deliver 2016**
 * **Oct 13-14, 2016, Winnipeg, Manitoba**
 * Hosted on **[infoQ](https://www.infoq.com/presentations/containers-docker-organization?utm_source=infoq&utm_campaign=user_page&utm_medium=link)**
 
