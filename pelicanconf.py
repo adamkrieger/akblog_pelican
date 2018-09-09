@@ -7,6 +7,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Adam Krieger'
 SITENAME = u'adamkrieger.ca'
 SITEURL = 'http://www.adamkrieger.ca'
+#SITEURL = 'http://localhost:8000'
 DISQUS_SITEURL = "http://www.adamkrieger.ca"
 
 PATH = 'content'
@@ -29,13 +30,13 @@ LINKS = ()
 # Social widget
 SOCIAL = (
     (
-        '<i class="fa fa-twitter-square icon-social" aria-hidden="true"></i> @adamkrieger',
+        '<i class="fab fa-twitter-square icon-social" aria-hidden="true"></i> @adamkrieger',
         'https://twitter.com/adamkrieger'),
     (
-        '<i class="fa fa-github-square icon-social" aria-hidden="true"></i> /AdamKrieger',
+        '<i class="fab fa-github-square icon-social" aria-hidden="true"></i> /AdamKrieger',
         'https://github.com/adamkrieger'),
     (
-        '<i class="fa fa-linkedin-square icon-social" aria-hidden="true"></i> Adam Krieger',
+        '<i class="fab fa-linkedin icon-social" aria-hidden="true"></i> Adam Krieger',
         'https://www.linkedin.com/in/adam-krieger-7a087048/')
     )
 
@@ -46,7 +47,7 @@ DEFAULT_PAGINATION = 10
 
 #AK
 DELETE_OUTPUT_DIRECTORY = False
-THEME = "./themes/nest"
+THEME = "./themes/nest.ak"
 FILENAME_METADATA = r"(?P<date>\d{4}-\d{2}-\d{2})_(?P<slug>.*)"
 SHOW_SOCIAL_ON_INDEX_PAGE_HEADER = True
 GOOGLE_ANALYTICS = 'UA-66645426-1'
