@@ -2,12 +2,17 @@ Title: Speaking
 
 ## Upcoming
 
-### The Freedom of IaC with Ansible and Cloudformation
+### Concurrency-First Development in Go
 
-* To be presented at **Prairie Dev Con: Deliver 2018**
-* **October 29-30, 2018, Winnipeg, Manitoba**
+* To be presented at **Prairie Dev Con (PrDC 2019)**
+* **June 4-5, 2019, Winnipeg, Manitoba**
 
 ## Past
+
+### The Freedom of IaC with Ansible and Cloudformation
+
+* Presented first at **Prairie Dev Con: Deliver 2018**
+* **October 29-30, 2018, Winnipeg, Manitoba**
 
 ### Slack Integrations: From Concept to Deployment
 
