@@ -6,9 +6,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Adam Krieger'
 SITENAME = u'adamkrieger.ca'
-SITEURL = 'http://www.adamkrieger.ca'
+SITEURL = 'https://www.adamkrieger.ca'
 #SITEURL = 'http://localhost:8000'
-DISQUS_SITEURL = "http://www.adamkrieger.ca"
+DISQUS_SITEURL = "https://www.adamkrieger.ca"
 
 PATH = 'content'
 
